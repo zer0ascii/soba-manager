@@ -33,6 +33,12 @@ async def douwantstaff(ctx):
 async def custom(ctx):
     await ctx.send("Here are the warnings if you violate the rules 🍜")
 
+  
+@bot.command()
+async def emo1(ctx):
+    await ctx.send(":MangaGirl1")
+
+
 
 
 
