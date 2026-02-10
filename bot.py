@@ -31,7 +31,11 @@ async def douwantstaff(ctx):
   
 @bot.command()
 async def custom(ctx):
-    await ctx.send("Here are the warnings if you violate the rules 🍜")
+    await ctx.send("Now for the final vote!!  
+    🅰️Shinshu Soba
+    🅱️Joshu Soba
+    ©️Nihachi Soba
+    🅾️Juwari Soba")
 
   
 @bot.command()
