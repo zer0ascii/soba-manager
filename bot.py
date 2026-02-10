@@ -15,5 +15,20 @@ async def on_ready():
 @bot.command()
 async def test(ctx):
     await ctx.send("Hello from Soba Manager! 🍜")
+    
+@bot.command()
+async def day(ctx):
+    await ctx.send("Hello! My first message this day! 🍜")
+
+@bot.command()
+async def changes(ctx):
+    await ctx.send("We have new changes!🍜")
+    
+@bot.command()
+async def douwantstaff(ctx):
+    await ctx.send("Look in #❓apply-for-staff if you want to get @staffed 🍜")
+
+
+
 
 bot.run(TOKEN)
