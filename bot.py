@@ -28,6 +28,12 @@ async def changes(ctx):
 async def douwantstaff(ctx):
     await ctx.send("Look in #❓apply-for-staff if you want to get @staffed 🍜")
 
+  
+@bot.command()
+async def custom(ctx):
+    await ctx.send("Here are the warnings if you violate the rules 🍜")
+
+
 
 
 
